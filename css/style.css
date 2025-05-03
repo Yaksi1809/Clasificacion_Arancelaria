@@ -62,8 +62,9 @@ body::before {
 
 .card h3 {
     margin: 12px 0;
-    font-size: 1.8rem;
+    font-size: 1.0rem;
     font-style: italic;
+    
 }
 
 .card button {

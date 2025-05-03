@@ -1,8 +1,6 @@
 <?php
-
-require_once 'libs/PhpSpreadsheet/src/PhpSpreadsheet/IOFactory.php';
-
 namespace PhpOffice\PhpSpreadsheet;
+
 
 use PhpOffice\PhpSpreadsheet\Reader\IReader;
 use PhpOffice\PhpSpreadsheet\Shared\File;

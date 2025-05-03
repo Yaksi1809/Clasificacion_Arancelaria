@@ -28,7 +28,7 @@ $result = $conn->query($sql);
     <!-- Buscador y botón importar en la misma fila -->
     <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px;">
             <!-- Formulario para importar archivo Excel -->
-            <form action="importarExcel.php" method="POST" enctype="multipart/form-data" style="display: flex; align-items: center;">
+            <form action="../importar/importarExcel.php" method="POST" enctype="multipart/form-data" style="display: flex; align-items: center;">
             <button type="submit" class="btn-submit">Importar Excel</button><br><br>
                 <input type="file" name="archivo_excel" accept=".xlsx, .xls" required>
             </form>
